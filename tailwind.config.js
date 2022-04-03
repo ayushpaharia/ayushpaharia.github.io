@@ -6,7 +6,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./layouts/**/*.tsx",
   ],
-  mode: "jit",
   darkMode: "class",
   theme: {
     extend: {
@@ -15,4 +14,5 @@ module.exports = {
       },
     },
   },
+  plugins: [],
 };
